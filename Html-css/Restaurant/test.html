@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+    <script src="./test.js"></script>
+</head>
+<body>
+<div id="abc">
+    <form action="" onsubmit="return billCalculation()">
+    <div>
+    <h1>Delicious Buffet Restaurant</h1>
+</div>
+    
+<div class="parks">
+    <label for="" id="name">Customer Name</label>
+    <input type="text" placeholder="Enter your name" id="customerName" required>
+</div>
+
+<div class="parks">
+    <label for="">Contact No</label>
+    <input type="tel" placeholder="Enter your mobile number" id="contactNo" required>
+</div>
+
+<div class="parks">
+    <label for="">Date</label>
+    <input type="date" id="bookingDate" required>
+</div>
+
+<div class="parks">
+    <label for="">Timings</label>
+    <div class="naa">
+    <input type="radio" id="session1" >
+    <label for="" class="light">1-4pm</label>
+    <input type="radio" id="session2">
+    <label for="" class="light">4-7pm</label>
+    <input type="radio" id="session3">
+    <label for="" class="light">7-10pm</label>
+    </div>
+</div>
+
+<div  class="parks">
+<label for="">Vegetarian</label>
+<table class="size" style="width: 180px;">
+    <tr>
+<td  class="size1">Adult</td>
+<td><input  type="number" id="vegAdult" class="size2" min="0"> </td>
+    </tr>
+    <tr>
+<td class="size1">Kids(5-9 yrs)</td>
+<td><input  type="number" id="vegKids" class="size2" min="0"> </td>
+    </tr>
+</table>
+</div>
+
+<div  class="parks">
+    <label for="">Non-Vegetarian</label>
+    <table class="size" style="width: 180px;" >
+        <tr>
+    <td class="size1" >Adult</td>
+    <td  ><input type="number" id="nonVegAdult" class="size2" min="0" > </td>
+        </tr>
+        <tr> 
+    <td class="size1" >Kids(5-9 yrs)</td>
+    <td ><input type="number" id="nonVegKids" class="size2" min="0"> </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="parks">
+        <label for="">Occasion</label>
+        <input list="occasionList" id="occasion" class="naa">
+        <datalist id="occasionList">
+            <option value="Team dinner"></option>
+            <option value="Family   reunion"></option>
+            <option value="Party"></option>
+            <option value="Birthday celebration"></option>
+            <option value="Team lunch"></option>
+        </datalist>
+    </div>
+
+    <div  class="parks">
+        <label for="">Parking</label>
+        <div class="naa6">
+        <input type="checkbox" id="parking">
+        <label for="" class="light">Parking Required</label>
+        </div>
+    </div>
+
+    <div >
+<input type="submit" id="submit" >
+<input type="reset" value="Clear" id="reset">
+    </div>
+    </form>
+</div>
+<div>
+<p id="result"></p>
+</div>
+
+</body>
+</html>

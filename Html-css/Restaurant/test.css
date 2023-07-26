@@ -1,0 +1,71 @@
+.parks{
+    display: flex;
+    margin:20px 0px;
+}
+
+body{
+background-color:#9370DB;
+font-size: larger;
+font-weight: bold;
+}
+.light{
+    font-weight: 100;
+}
+
+h1{
+color:#FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+font-style:italic ;
+background-color: #FF6347;
+text-align: center;
+}
+
+#abc div label{
+    width: 32%;
+}
+
+#name{
+    width: 50%;
+}
+
+#reset{
+    position: relative;
+    margin-left: 310px;
+}
+
+#result{
+    font-weight: bold;
+    font-size: 24px;
+    font-family:Bahnschrift;
+    color:#800000;
+}
+
+#submit , #reset {
+    
+    font-weight: bold;
+    font-family:Bahnschrift;
+    background-color: #FFDEAD;
+    width: 13em;
+    height: 35px;
+}
+
+table ,td {
+    border: 1px solid white;
+}
+
+td {
+    background-color:coral;
+    padding: 5px;
+}
+
+.size{
+    width: 180px;
+}
+
+.size .size1 {
+    width: 145px;
+}
+
+.size .size2 {
+    width: 35px;
+}
