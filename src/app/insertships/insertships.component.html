@@ -1,0 +1,22 @@
+<div class="dialog-box" id="popup">
+    <i class="fa-solid fa-xmark fa-lg" ></i>
+    
+    <form [formGroup]="addgrp" >
+        <div >
+            <input id="wid" formControlName="sname" placeholder="ship name">
+        </div>
+        <div>
+            <input id="wid" formControlName="capacity" placeholder="ship capacity">
+        </div>
+        <div>
+            <input id="wid" formControlName="starting" placeholder="starting point">
+        </div>
+        <div>
+            <input id="wid" formControlName="ending" placeholder="ending point ">
+        </div>
+        <div>
+            <input id="wid" formControlName="price" placeholder="ticket price">
+        </div>
+    </form>
+    <button class="cbtn abc" (click)="addbtn()">ADD SHIP</button>
+</div>

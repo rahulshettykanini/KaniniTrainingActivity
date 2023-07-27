@@ -1,0 +1,18 @@
+input
+{
+    width: 300px;
+    background-color: aquamarine;
+    color: #000;
+}
+
+::placeholder
+{
+color: #000;
+opacity: 1;
+}
+
+.abc
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
