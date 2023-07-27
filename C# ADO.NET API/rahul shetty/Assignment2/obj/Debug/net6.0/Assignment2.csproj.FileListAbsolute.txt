@@ -1,0 +1,15 @@
+D:\c#\New folder\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.exe
+D:\c#\New folder\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.deps.json
+D:\c#\New folder\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.runtimeconfig.json
+D:\c#\New folder\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.dll
+D:\c#\New folder\Assignment2\Assignment2\bin\Debug\net6.0\Assignment2.pdb
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.csproj.AssemblyReference.cache
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfoInputs.cache
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.AssemblyInfo.cs
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.csproj.CoreCompileInputs.cache
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.dll
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\refint\Assignment2.dll
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.pdb
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\Assignment2.genruntimeconfig.cache
+D:\c#\New folder\Assignment2\Assignment2\obj\Debug\net6.0\ref\Assignment2.dll
