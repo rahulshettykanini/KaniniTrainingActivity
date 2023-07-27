@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5SHNQTkoFHIrmgttOQ2LkIn5ddzkKBoQBPCk8ZYijEo=",
+  "Source": "transport",
+  "BasePath": "_content/transport",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
