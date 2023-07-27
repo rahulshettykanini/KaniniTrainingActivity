@@ -1,0 +1,25 @@
+<div id="title">CUSTOMER DETAILS</div>
+
+<table class="table">
+    <thead >
+        <tr >
+            <th class="two" scope="col">Customer Name</th>
+            <th class="two" scope="col">Product</th>
+            <th class="two" scope="col">Weight</th>
+            <th class="two" scope="col">Source</th>
+            <th class="two" scope="col">Destination</th>
+            <th class="two" scope="col">Ship</th>
+        </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let student of students">
+            <td class="one">{{student.cname}}</td>
+            <td class="one">{{student.product}}</td>
+            <td class="one">{{student.weight}}</td>
+            <td class="one">{{student.source}}</td>
+            <td class="one">{{student.destination}}</td>
+            <td class="one">{{student.ship}}</td>
+        </tr>
+
+    </tbody>
+</table>

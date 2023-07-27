@@ -1,0 +1,134 @@
+.one
+{
+ color: blue;
+ background-color: rgb(194, 199, 185);
+}
+.two
+{
+    background-color: aliceblue;
+}
+
+
+.nav
+{
+  list-style-type: none;
+ 
+  display:flex;
+  
+}
+.nav li
+{
+border : 2px solid black;
+ margin: 0px;
+  padding: 20px 156px;
+ 
+  background-color : aqua;
+  
+}
+.nav li a 
+{
+ text-decoration :none;
+}
+
+
+.bro
+{
+    background-color: aqua;
+}
+
+.wide {
+    height: 500px;
+    
+}
+#title
+{
+    text-align: center;
+    font-size : 40px; ;
+}
+#set
+{
+    display: flex;
+
+}
+.set1 
+
+{  align-items: center; 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.set2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bor
+{
+    width: 100%;
+    border-radius: 2px solid black;
+    
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 0 0 33.33%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column h3 {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    color: #777;
+    font-size: 14px;
+  }
+  

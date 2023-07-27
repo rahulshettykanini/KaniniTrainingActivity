@@ -1,0 +1,27 @@
+<div class="dialog-box" id="popup">
+    <!-- <img  />
+    <i class="fa-solid fa-xmark fa-lg"
+      ></i>
+      <h2>Enter Details to Update</h2> -->
+      <form>
+        <div>
+            <input id="carId" name="carId" [(ngModel)]="carId" placeholder="Customer name">
+        </div>
+        <div>
+            <input id="carName" [(ngModel)]="carlist.product" [ngModelOptions]="{standalone: true}" placeholder="product">
+        </div>
+        <div>
+            <input id="carType" [(ngModel)]="carlist.weight" [ngModelOptions]="{standalone: true}" placeholder="weight">
+        </div>
+          <div>
+            <input id="price" [(ngModel)]="carlist.source" [ngModelOptions]="{standalone: true}" placeholder="source">
+        </div>
+          <div>
+              <input id="availability" [(ngModel)]="carlist.destination" [ngModelOptions]="{standalone: true}" placeholder="destination">
+          </div>
+          <div>
+            <input id="availability" [(ngModel)]="carlist.ship" [ngModelOptions]="{standalone: true}" placeholder="ship">
+        </div>
+      </form>
+      <button class="cbtn abc" (click)="UpdateCarById()">UPDATE CUSTOMER</button>
+  </div>

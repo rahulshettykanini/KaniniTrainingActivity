@@ -1,0 +1,25 @@
+<div class="dialog-box" id="popup">
+    <i class="fa-solid fa-xmark fa-lg" ></i>
+    
+    <form [formGroup]="addgrp" >
+        <div >
+            <input id="wid" formControlName="cname" placeholder="customer name">
+        </div>
+        <div>
+            <input id="wid" formControlName="product" placeholder="product">
+        </div>
+        <div>
+            <input id="wid" formControlName="weight" placeholder="weight">
+        </div>
+        <div>
+            <input id="wid" formControlName="source" placeholder="source ">
+        </div>
+        <div>
+            <input id="wid" formControlName="destination" placeholder="destination">
+        </div>
+        <div>
+            <input id="wid" formControlName="ship" placeholder="ship">
+        </div>
+    </form>
+    <button class="cbtn abc" (click)="addbtn()">ADD CUSTOMER</button>
+</div>
